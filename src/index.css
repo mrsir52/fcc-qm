@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#quote-box {
+  border-radius:3px;
+  opacity: 60%;
+  position:relative;
+  margin:8% auto auto auto;
+  height: 300px;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
+
+.full-bg-size { 
+  background: url('./assets/wor.jpg') no-repeat center center fixed; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
