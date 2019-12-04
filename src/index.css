@@ -10,7 +10,7 @@ body {
 
 #quote-box {
   border-radius:3px;
-  /* opacity: 60%; */
+  opacity: 60%; 
   position:relative;
   margin:8% auto auto auto;
   height: 30vh;
