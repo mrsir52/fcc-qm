@@ -23,14 +23,14 @@ function App() {
       <div className="row h-100 justify-content-center align-items-center" >
         <div id="quote-box" className="row border-0">
           <h5 className="card-title font-weight-bold font-italic" id="text">
-            <i class="fas fa-quote-left"> {data.content}</i>
+            {data.content}
           </h5>
           <p className="card=text" id="author">
             - {data.author}
           </p>
         
-          <div className="align-items-end justify-content-center border border-danger" >
-            <div className="col-">
+          <div className="align-items-end justify-content-center row" >
+            <div className="col-xs-7">
               <a
                 href="#"
                 class="btn btn-primary"
@@ -40,7 +40,7 @@ function App() {
                 New Quote
               </a>
             </div>
-            
+            <div className="col-xs-5">
               <a
                 href="twitter.com/intent/tweet"
                 class="btn btn-primary btn-info ml-2"
@@ -48,7 +48,7 @@ function App() {
               >
                 <i class="fab fa-twitter"></i>
               </a>
-            
+            </div>
             </div>
         </div>
       </div>
